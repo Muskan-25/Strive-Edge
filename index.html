@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StriveEdge - Empowering Your Business with Trusted Outsourcing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header home" id="header">
+    <div class="toolbar container">
+      <a href="index.html"><img class="logo" src="assets/logo_light2.png" alt="StriveEdge logo"></a>
+      <nav class="nav-links">
+        <a class="nav-btn" href="index.html">Home</a>
+        <a class="nav-btn" href="about.html">About</a>
+        <a class="nav-btn" href="services.html">Service</a>
+        <a class="nav-btn" href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html" class="quote-btn">Get A Quote →</a>
+      <button type="button" class="menu-icon" id="menuToggle" aria-label="Menu">
+        <span class="material-icons">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer" id="drawer">
+    <a href="index.html"><img class="logo" src="assets/logo_dark2.png" alt="StriveEdge logo"></a>
+    <nav>
+      <a class="nav-btn" href="index.html">Home</a>
+      <a class="nav-btn" href="about.html">About</a>
+      <a class="nav-btn" href="services.html">Service</a>
+      <a class="nav-btn" href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Banner -->
+  <section class="banner container">
+    <svg width="0" height="0" style="position: absolute;">
+      <defs>
+        <linearGradient id="logo-icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ffffff" />
+          <stop offset="50%" stop-color="#e0f7fa" />
+          <stop offset="100%" stop-color="#b2ebf2" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 banner-content">
+          <h1>Empowering Your Business to Scale with Trusted Outsourcing</h1>
+          <p>We provide skilled offshore teams so you can focus on growth, innovation, and customers — not operations.</p>
+          <div class="banner-actions">
+            <a href="contact.html" class="btn btn_primary">Get a Free Consultation</a>
+            <a class="call-info" href="tel:+918283003828">
+              <span class="material-icons">call</span>
+              <span>CALL : +91 82830-03828</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 banner-image">
+          <div class="image-wrapper">
+            <img src="assets/banner.png" alt="banner" class="img-fluid">
+            <button type="button" class="play-btn" aria-label="Play">
+              <span class="material-icons logo-icon">auto_awesome</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Service -->
+  <section class="featured-service">
+    <div class="container">
+      <div class="section-head">
+        <span class="sub-title">OUR SERVICES</span>
+        <h2>Dedicated Support Designed to Help Your Business Grow Confidently</h2>
+      </div>
+      <div class="card_container">
+        <div class="card">
+          <div class="icon"><span class="material-icons">hub</span></div>
+          <h5>Insurance Process Outsourcing</h5>
+          <p>Streamline insurance operations with our specialized support services. We handle policy processing, claims management, data entry, and back-office tasks with accuracy and confidentiality.</p>
+          <div class="number"><p class="text">01</p></div>
+        </div>
+        <div class="card">
+          <div class="icon"><span class="material-icons">groups</span></div>
+          <h5>Digital Marketing Services</h5>
+          <p>Grow your online presence with data-driven digital marketing solutions, including SEO, social media management, paid advertising, and content marketing tailored to your business goals.</p>
+          <div class="number"><p class="text">02</p></div>
+        </div>
+        <div class="card">
+          <div class="icon"><span class="material-icons">public</span></div>
+          <h5>Web Development & IT Services</h5>
+          <p>Build and maintain reliable digital solutions with our web development and IT support services, designed to enhance performance, security, and scalability.</p>
+          <div class="number"><p class="text">03</p></div>
+        </div>
+        <div class="card">
+          <div class="icon"><span class="material-icons">account_balance</span></div>
+          <h5>Taxation & Compliance Services</h5>
+          <p>Stay compliant and stress-free with expert support for taxation, regulatory filings, and statutory compliance across industries and jurisdictions.</p>
+          <div class="number"><p class="text">04</p></div>
+        </div>
+        <div class="card">
+          <div class="icon"><span class="material-icons">business_center</span></div>
+          <h5>Accounting & Bookkeeping Services</h5>
+          <p>Ensure financial accuracy and transparency with our accounting and bookkeeping services, including daily bookkeeping, reporting, payroll support, and reconciliations.</p>
+          <div class="number"><p class="text">05</p></div>
+        </div>
+        <div class="card">
+          <div class="icon"><span class="material-icons">local_atm</span></div>
+          <h5>Financial Advisory Services</h5>
+          <p>Make informed financial decisions with our advisory support, covering budgeting, financial planning, performance analysis, and strategic insights to support sustainable business growth.</p>
+          <div class="number"><p class="text">06</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Approach -->
+  <section class="solution-section">
+    <svg width="0" height="0" style="position: absolute;">
+      <defs>
+        <linearGradient id="ac-unit-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ffffff" />
+          <stop offset="50%" stop-color="#e0f7fa" />
+          <stop offset="100%" stop-color="#b2ebf2" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="top-notch">
+      <div class="close-icon">
+        <span class="material-icons ac-unit-icon">ac_unit</span>
+      </div>
+    </div>
+    <span class="subtitle">Why Choose Us</span>
+    <h2 class="title">Your Growth Partner, Not Just a Service Provider</h2>
+    <div class="cards-wrapper">
+      <a href="why-choose-us.html#cost-effective" class="solution-card">
+        <img src="assets/cost_effective_outsourcing_solutions.jpeg" alt="Cost-effective outsourcing solutions">
+        <div class="card-content">
+          <span class="card-title">Cost-effective outsourcing solutions</span>
+          <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+        </div>
+      </a>
+      <a href="why-choose-us.html#scalable" class="solution-card">
+        <img src="assets/scalable_teams_as_business_grows.jpeg" alt="Scalable teams as your business grows">
+        <div class="card-content">
+          <span class="card-title">Scalable teams as your business grows</span>
+          <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+        </div>
+      </a>
+      <a href="why-choose-us.html#transparent" class="solution-card">
+        <img src="assets/transparent_communication_and_reporting.jpeg" alt="Transparent communication & reporting">
+        <div class="card-content">
+          <span class="card-title">Transparent communication & reporting</span>
+          <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+        </div>
+      </a>
+      <a href="why-choose-us.html#expertise" class="solution-card">
+        <img src="assets/industry_specific_expertise.jpeg" alt="Industry-specific expertise">
+        <div class="card-content">
+          <span class="card-title">Industry-specific expertise</span>
+          <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+        </div>
+      </a>
+      <a href="why-choose-us.html#support" class="solution-card">
+        <img src="assets/24_7_support.jpeg" alt="24/7 support options">
+        <div class="card-content">
+          <span class="card-title">24/7 support options</span>
+          <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Text Carousel / Marquee -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span class="marquee-text">Consulting</span>
+      <span class="marquee-text">Business</span>
+      <span class="marquee-text">Marketing</span>
+      <span class="marquee-text">Strategy</span>
+      <span class="marquee-text">Solutions</span>
+      <span class="marquee-text">Growth</span>
+      <span class="marquee-text">Consulting</span>
+      <span class="marquee-text">Business</span>
+      <span class="marquee-text">Marketing</span>
+      <span class="marquee-text">Strategy</span>
+      <span class="marquee-text">Solutions</span>
+      <span class="marquee-text">Growth</span>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-content">
+      <div class="image-wrapper">
+        <img src="assets/about.png" alt="About" class="main-image">
+        <div class="badge-circle">
+          <svg viewBox="0 0 120 120">
+            <defs>
+              <path id="circlePath" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" />
+            </defs>
+            <text>
+              <textPath href="#circlePath">BUSINESS • CONSULTING • MARKETING •</textPath>
+            </text>
+            <circle cx="60" cy="60" r="2" fill="#fff" />
+          </svg>
+        </div>
+      </div>
+      <div class="text-content">
+        <span class="small-title">ABOUT</span>
+        <h2 class="title">Turning Market Insights into Confident Business Decisions</h2>
+        <p class="description">Since 2020, we have been helping businesses navigate complex markets with clarity and confidence. Our team of 50+ dedicated professionals delivers practical insights and reliable support that enable smarter planning and sustainable growth.</p>
+        <p class="description">By combining research, consulting, and execution, we assist organizations in understanding their industry landscape, identifying opportunities, and building strategies that deliver long-term value. We work as a trusted partner, focused on your success at every stage.</p>
+        <div class="row">
+          <div class="col">
+            <div class="check-list">
+              <div class="check-item"><span class="material-icons">check</span><span>Experienced Consultants</span></div>
+              <div class="check-item"><span class="material-icons">check</span><span>Market Insight Specialists</span></div>
+              <div class="check-item"><span class="material-icons">check</span><span>Client-Focused Support Team</span></div>
+            </div>
+            <div class="actions">
+              <a href="about.html" class="btn btn_primary">More About Us</a>
+              <a class="email" href="mailto:info@striveedge.in">
+                <span class="material-icons">email</span>
+                <span>info@striveedge.in</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Stats -->
+  <div class="cta-stats-wrapper">
+    <div class="cta-stats">
+      <div class="cta-header">
+        <h2 class="cta-title">Perform Market Research to gain <br>Insights into Industry Trends</h2>
+        <a href="contact.html" class="btn btn_primary">Get Started Now</a>
+      </div>
+      <div class="divider"></div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <span class="stat-value">600+</span>
+          <span class="stat-label">TOTAL PROJECTS <br> COMPLETED</span>
+        </div>
+        <span class="star">✦</span>
+        <div class="stat-item">
+          <span class="stat-value">300+</span>
+          <span class="stat-label">SATISFIED ACTIVE <br> CUSTOMERS</span>
+        </div>
+        <span class="star">✦</span>
+        <div class="stat-item">
+          <span class="stat-value">4.7<span>*</span></span>
+          <span class="stat-label">AVERAGE CLIENTS <br> RATINGS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Working Steps -->
+  <div class="working_steps_wrapper">
+    <span class="smallTitle">HOW WE WORK</span>
+    <h2 class="heading">Our Structured Approach to Delivering Reliable Outsourcing Solutions</h2>
+    <p class="subText">We follow a clear and well-defined process to ensure smooth collaboration, transparency, and measurable results at every stage of engagement.</p>
+    <div class="cardContainer container">
+      <a href="how-we-work.html#step-01" class="card">
+        <span class="stepNo">01</span>
+        <div class="iconBox"><span class="material-icons">description</span></div>
+        <span class="cardTitle">Requirement Assessment</span>
+        <span class="cardDesc">We begin by understanding your business objectives, current processes, operational challenges, and outsourcing expectations to ensure practical alignment.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+      <a href="how-we-work.html#step-03" class="card">
+        <span class="stepNo">03</span>
+        <div class="iconBox"><span class="material-icons">tune</span></div>
+        <span class="cardTitle">Customized Solution Design</span>
+        <span class="cardDesc">Based on the defined scope, we design an outsourcing model that includes team structure, timelines, reporting methods, and performance expectations.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+      <a href="how-we-work.html#step-06" class="card">
+        <span class="stepNo">06</span>
+        <div class="iconBox"><span class="material-icons">monitor_heart</span></div>
+        <span class="cardTitle">Review, Optimization & Scaling</span>
+        <span class="cardDesc">We conduct periodic reviews, improve processes where required, and scale resources based on workload and business growth.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+      <a href="how-we-work.html#step-02" class="card">
+        <span class="stepNo">02</span>
+        <div class="iconBox"><span class="material-icons">monitor</span></div>
+        <span class="cardTitle">Process Mapping & Scope Definition</span>
+        <span class="cardDesc">We document workflows, define responsibilities, set service scope, and identify key deliverables to avoid ambiguity and ensure clarity from the start.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+      <a href="how-we-work.html#step-04" class="card">
+        <span class="stepNo">04</span>
+        <div class="iconBox"><span class="material-icons">check_circle_outline</span></div>
+        <span class="cardTitle">Knowledge Transfer & Team Onboarding</span>
+        <span class="cardDesc">Our team undergoes structured knowledge transfer, documentation review, and training to ensure readiness before full-scale execution.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+      <a href="how-we-work.html#step-05" class="card">
+        <span class="stepNo">05</span>
+        <div class="iconBox"><span class="material-icons">trending_up</span></div>
+        <span class="cardTitle">Service Execution & Performance Tracking</span>
+        <span class="cardDesc">We begin service delivery with continuous monitoring, regular updates, and performance tracking against agreed metrics.</span>
+        <span class="arrow"><span class="material-icons">arrow_forward</span></span>
+      </a>
+    </div>
+    <p class="footerText">Partner with us to experience a streamlined outsourcing process designed to support long-term business growth.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-lg-4 col-md-12">
+          <div class="footer-logo">
+            <img src="assets/logo_light2.png" class="logo" alt="StriveEdge">
+          </div>
+          <p class="footer-text">Continually plagiarize virtual web service pro</p>
+          <div class="social_icons">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" class="icon"><span class="material-icons">share</span></a>
+            <a href="https://www.instagram.com/striveedge.in" target="_blank" rel="noreferrer" class="icon"><span class="material-icons">camera_alt</span></a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="icon"><span class="material-icons">link</span></a>
+            <a href="https://x.com/striveedge_in" target="_blank" rel="noreferrer" class="icon"><span class="material-icons">tag</span></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <h3 class="footer-title">Company</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h3 class="footer-title">Service</h3>
+          <ul>
+            <li>Insurance Process Outsourcing</li>
+            <li>Digital Marketing</li>
+            <li>Web Development & IT</li>
+            <li>Taxation & Compliance</li>
+            <li>Accounting & Bookkeeping</li>
+            <li>Financial Advisory</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h3 class="footer-title">Contact</h3>
+          <a class="contact-item" href="https://maps.app.goo.gl/8WxTWM2m25hWW9ZV8" target="_blank">
+            <span class="material-icons">location_on</span>
+            <span>Gurgaon, India</span>
+          </a>
+          <div class="divider"></div>
+          <a class="contact-item" href="tel:+918283003828">
+            <span class="material-icons">call</span>
+            <span>+91 82830-03828</span>
+          </a>
+          <a class="contact-item" href="mailto:info@striveedge.in">
+            <span class="material-icons">email</span>
+            <span>info@striveedge.in</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> StriveEdge. Designed & Developed by StriveEdge Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <button type="button" class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <span class="material-icons">keyboard_arrow_up</span>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

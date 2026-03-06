@@ -1,0 +1,15 @@
+/* variables - CSS custom properties (use var(--name) in other files) */
+:root {
+  --font-primary: 'Fira Sans', sans-serif;
+  --color-primary: #053131;
+  --color-primary-2: #366B2A;
+  --color-secondary: #0C6E6D;
+  --bg-light: #F2F8F2;
+  --bg-light-2: #e9f6e6;
+  --gray: #6b7a7a;
+  --dark-text: #063232;
+  --light-text: #a3b7b7;
+  --white: #fff;
+  --black: #000;
+  --border-radius: 8px;
+}

@@ -1,0 +1,173 @@
+@import 'variables.css';
+
+.contact-section {
+  padding: 100px 40px;
+  background: var(--white);
+}
+
+.contact-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 60px !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+}
+
+.info-card {
+  background: #f6fbfb;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.info-card .info-row {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.info-card .icon-circle {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 0 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #0c6e6d;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.info-card .label {
+  font-size: 14px;
+  color: #6f8f8f;
+}
+
+.info-card .value {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.info-card .divider {
+  border-bottom: 1px dashed #b7dada;
+  margin: 20px 0;
+}
+
+.contact-form {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 50px 45px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .small-title {
+  text-align: center;
+}
+
+.contact-form .title {
+  text-align: center;
+}
+
+.contact-form .underline {
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ff9800;
+  margin: 12px auto 35px;
+  border-radius: 4px;
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-fields .MuiTextField-root,
+.form-fields .form-group {
+  flex: 1;
+  min-width: 240px;
+}
+
+.form-fields .MuiTextField-root input,
+.form-fields .MuiTextField-root textarea,
+.form-fields input,
+.form-fields textarea {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 12px 14px;
+  width: 100%;
+  font-size: 14px;
+  font-family: var(--font-primary);
+}
+
+.form-fields textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-fields .form-group.full {
+  flex: 100%;
+  min-width: 100%;
+}
+
+.form-fields .checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #5f7d7d;
+  margin-top: 10px;
+}
+
+.form-fields .submitBtn {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .contact-section {
+    padding: 80px 30px;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-section {
+    padding: 60px 20px;
+  }
+
+  .contact-section .contact-wrapper {
+    padding: 0px;
+  }
+
+  .contact-section .contact-wrapper .contact-info .info-card {
+    padding: 20px;
+  }
+
+  .contact-section .contact-wrapper .contact-info .info-card .info-row div:last-child {
+    flex: 1;
+  }
+
+  .contact-section .contact-wrapper .contact-form {
+    padding: 30px 20px;
+  }
+}
