@@ -95,8 +95,12 @@
   font-weight: 600;
   color: #0c6e6d;
   text-transform: none;
+  background-color: transparent;
 }
 
 .card-content .details-btn:hover {
   background: transparent;
+}
+.card-content .details-btn span {
+  vertical-align: middle;
 }

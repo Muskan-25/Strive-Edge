@@ -7,6 +7,10 @@
   transition: all .3s linear !important;
 }
 
+i{
+  font-family: "Font Awesome 7 Brands" !important;
+}
+
 button{
   border: 0px;
 }
@@ -88,6 +92,7 @@ a {
   word-wrap: normal;
   direction: ltr;
   -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
