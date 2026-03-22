@@ -77,7 +77,7 @@
 }
 
 .contact-form .small-title {
-  text-align: center;
+  text-align: center !important;
 }
 
 .contact-form .title {
