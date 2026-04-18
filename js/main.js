@@ -108,4 +108,26 @@
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 100);
   }
+
+
+  document.body.insertAdjacentHTML(
+    "afterbegin",
+    `
+    <div class="loader-wrapper" id="loader">
+      <div class="bg-reveal"></div>
+      <div class="loader-content">
+        <div class="circle-loader"></div>
+        <div class="brand-text">
+          STRIVE <span>EDGE</span>
+        </div>
+      </div>
+    </div>
+    `
+  );
+
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+      document.getElementById("loader").style.display = "none";
+    }, 1500);
+  });
 })();
